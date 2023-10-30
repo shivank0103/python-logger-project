@@ -1,0 +1,15 @@
+private String requestId;
+  private String ref;
+  private String service;
+  private String apiUrl;
+  private int statusCode;
+  private String message;
+  private String errorCode;
+  private String diagnoCode;
+  private String stackTrace;
+  private String callerService;
+  private String fatalError;
+  private Map<String, Object> context;
+  private MultivaluedMap<String, String> requestQueryParam;
+  private MultivaluedMap<String, String> requestPathParam;
+  private long epochTime = System.currentTimeMillis();
