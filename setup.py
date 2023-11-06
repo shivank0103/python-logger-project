@@ -8,7 +8,7 @@ HERE = pathlib.Path(__file__).parent
 README = (HERE / "README.md").read_text()
 
 setup(
-    name='python_logger',
+    name='cashifypythonlogger',
     version='0.0.1',
     description='Logging framework python',
     url='https://github.com/shivank0103/python-logger-project',
